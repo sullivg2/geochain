@@ -6,3 +6,6 @@ members = [
     'node',
     'runtime',
 ]
+
+[patch.crates-io]
+librocksdb-sys = { git = "https://github.com/hdevalence/rust-rocksdb", branch = "master" }
